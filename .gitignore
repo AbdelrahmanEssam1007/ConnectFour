@@ -1,0 +1,8 @@
+/target
+/Cargo.lock
+/Cargo.toml
+/.idea/.gitignore
+/.idea/ConnectFour.iml
+/.idea/material_theme_project_new.xml
+/.idea/modules.xml
+/.idea/vcs.xml
