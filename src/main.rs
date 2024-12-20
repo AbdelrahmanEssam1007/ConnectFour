@@ -73,8 +73,13 @@ impl Game {
     }
   }
 
+  fn ClearScreen() {
+    print!("\x1B[2J\x1B[1;1H"); // ANSI escape code to clear the screen
+  }
+
   // Displays the game board and game state
   fn DisplayBoard(&self) {
+    Self::ClearScreen();
     println!("{}--------------------{}", YELLOW, RESET);
     println!("{}Connect 4  (Move: {}){}", YELLOW, self.CurrentMove, RESET);
     println!("{}--------------------{}", YELLOW, RESET);
