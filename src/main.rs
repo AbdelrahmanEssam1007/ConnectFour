@@ -1,4 +1,4 @@
-#![allow(non_snake_case)]
+#![allow(non_snake_case)] // Disable the snake_case warning, PascalCase FTW!
 use std::io;
 
 // Constants defining the board dimensions
