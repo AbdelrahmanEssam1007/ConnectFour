@@ -118,7 +118,7 @@ impl Game {
       return Player::None; // Not enough moves for a winner
     }
 
-    let directions = [(0, 1), (1, 0), (1, 1), (-1, 1)]; // Directions to check for a win
+    let directions = [(0, 1), (1, 0), (1, 1), (1, -1)]; // Directions to check for a win
     for row in 0..BOARD_HEIGHT {
       for column in 0..BOARD_WIDTH {
         let cell = self.Board[row][column];
